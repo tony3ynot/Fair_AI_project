@@ -1,0 +1,32 @@
+# Core dependencies
+fastapi==0.110.0
+uvicorn[standard]==0.27.0
+sqlalchemy==2.0.36
+alembic==1.13.1
+pymysql==1.1.0
+mysql-connector-python==8.3.0
+
+# Authentication & Security
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+bcrypt==4.0.1
+python-multipart==0.0.9
+email-validator==2.2.0
+
+# Configuration & Validation
+pydantic==2.9.2
+pydantic-settings==2.6.1
+python-dotenv==1.0.0
+
+# Async support
+aiomysql==0.2.0
+
+# Caching & Background tasks
+redis==5.0.1
+celery==5.3.4
+
+# Type checking
+mypy==1.8.0
+
+# Firebase Push Notifications
+firebase-admin==6.5.0
