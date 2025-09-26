@@ -5,6 +5,7 @@ sqlalchemy==2.0.36
 alembic==1.13.1
 pymysql==1.1.0
 mysql-connector-python==8.3.0
+orjson==3.9.13
 
 # Authentication & Security
 python-jose[cryptography]==3.3.0
